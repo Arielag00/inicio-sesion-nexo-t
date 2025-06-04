@@ -1,6 +1,6 @@
 {
 "usuarios": {
-    "asesor1": { "clave": "1234", "rol": "asesor" },
+    "asesor1": { "clave": "1234assssssssssaa", "rol": "asesor" },
     "jefe1": { "clave": "admin123", "rol": "jefe" }
 }
 }
