@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Base general */
+body, .stApp {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    margin-top: 12vh;
+    font-size: 30px;
+    font-weight: 600;
+    color: black !important;
+    letter-spacing: 0.5px;
+}
+
+/* Subtítulo */
+.subtext {
+    text-align: center;
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 40px;
+    margin-top: -10px;
+    white-space: nowrap;
+}
+
+/* Inputs */
+input {
+    color: white !important;
+    background-color: #222 !important;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+input::placeholder {
+    color: white !important;
+    opacity: 1 !important;
+    font-weight: 500;
+}
+
+/* Botón */
+div.stButton > button {
+    display: block;
+    margin: 0 auto;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+/* Mensajes personalizados */
+.mensaje {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.success {
+    color: #28a745; /* verde fuerte */
+}
+
+.error {
+    color: #e53935; /* rojo fuerte */
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #444;
+    opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+        margin-top: 8vh;
+    }
+
+    .subtext {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+
+    div.stButton > button {
+        width: 100%;
+    }
+
+    .footer {
+        font-size: 12px;
+        right: 10px;
+        bottom: 5px;
+    }
+}
+
