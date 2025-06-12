@@ -32,7 +32,7 @@ def cargar_usuarios():
 # --- Mapeo de nombres completos si aplica ---
 def nombre_amigable(usuario):
     nombres_directores = {
-        "Marcosag": "Marcos Aguero"
+        "Marcosag": "Marcos Agüero"
     }
     return nombres_directores.get(usuario, usuario)
 
@@ -87,7 +87,7 @@ with st.container():
                         transition: background-color 0.3s ease;
                     ' onmouseover="this.style.backgroundColor='#218838'"
                     onmouseout="this.style.backgroundColor='#28a745'">
-                        Bienvenido, {nombre_usuario}
+                        Bienvenido {nombre_usuario}
                     </button>
                 </a>
             </div>
@@ -99,7 +99,7 @@ with st.container():
             <a href='https://docs.google.com/forms/d/e/1FAIpQLSfAdIQICYC3Ocr6NcgF0yRd18sTSP2NJUBYqptM9hm4YbUstQ/viewform?usp=dialog'
             target='_blank'
             style='font-size: 14px; color: #444; text-decoration: none; font-weight: 500;'>
-            ¿No cuentas con usuario? Contactá al equipo de soporte
+            ¿No cuentas con usuario?
             </a>
         </div>
     """, unsafe_allow_html=True)
