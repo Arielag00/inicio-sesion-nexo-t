@@ -107,3 +107,4 @@ with st.container():
 # --- Footer ---
 st.markdown("""<div class="footer">By: Ariel Agüero :)</div>""", unsafe_allow_html=True)
 
+
